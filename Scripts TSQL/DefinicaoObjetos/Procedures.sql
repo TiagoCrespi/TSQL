@@ -1,0 +1,4 @@
+select ROUTINE_CATALOG as [Database], ROUTINE_NAME as [Procedure], ROUTINE_DEFINITION as [Script]
+from INFORMATION_SCHEMA.ROUTINES
+where ROUTINE_DEFINITION like '%*=%'
+OR ROUTINE_DEFINITION like '%=*%'
