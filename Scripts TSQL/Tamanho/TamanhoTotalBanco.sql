@@ -1,6 +1,9 @@
 /***************************************************************
-REtorna o tamanho do banco de dados atual, detalhado por arquivo.
-Se precisar do tamanho de um banco específico, basta fazer o USE <banco> antes de executar o script.
+Retorno: Tamanho total do banco de dados
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações: Coloque o nome do banco na linha 6
 ***************************************************************/
 
 use DB_NAME()  -- Coloque o nome do banco aqui

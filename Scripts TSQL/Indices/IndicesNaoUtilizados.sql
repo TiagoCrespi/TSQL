@@ -5,16 +5,6 @@ Data: 06/2024
 Version: 1.0 
 Obs: Retorna o tamanho dos índices não utilizados
      Índices que não foram utilizados para buscas, varreduras ou pesquisas
-     Pode ser utilizado para identificar índices que podem ser removidos
-     Pode ser utilizado para identificar índices que podem ser recriados
-     Pode ser utilizado para identificar índices que podem ser otimizados
-     Pode ser utilizado para identificar índices que podem ser reorganizados
-     Pode ser utilizado para identificar índices que podem ser reconstruídos
-     Pode ser utilizado para identificar índices que podem ser desativados
-     Pode ser utilizado para identificar índices que podem ser ativados
-     Pode ser utilizado para identificar índices que podem ser monitorados
-     Pode ser utilizado para identificar índices que podem ser analisados
-     Pode ser utilizado para identificar índices que podem ser reportados
 ***************************************************************/
 
 WITH pagecount AS (

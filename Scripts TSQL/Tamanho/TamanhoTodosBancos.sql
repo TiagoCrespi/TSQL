@@ -1,5 +1,9 @@
 /***************************************************************
-Retorna o tamanho de todos os bancos de dados da instancia.
+Retorno: Tamanho dos bancos de dados
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações: Retorna o tamanho de todos os bancos de dados do servidor
 ***************************************************************/
 
 

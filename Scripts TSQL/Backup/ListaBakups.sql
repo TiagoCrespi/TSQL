@@ -1,3 +1,12 @@
+/***************************************************************
+Retorno: Lista de backups realizados no servidor SQL
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações:
+- Lista todos os backups realizados no servidor SQL, incluindo detalhes como tipo de backup, tamanho e datas.
+- Pode ser útil para auditoria e monitoramento de backups.
+***************************************************************/
 SELECT sd.name AS [Database],
 CASE WHEN bs.type = 'D' THEN 'Full backup'
 WHEN bs.type = 'I' THEN 'Differential'

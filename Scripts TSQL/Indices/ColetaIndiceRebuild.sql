@@ -1,9 +1,13 @@
 /***************************************************************
-Retorno: null
+Retorno: Script para coletar índices fragmentados e gerar comandos de rebuild ou reorganize.
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
-Obs: Rebuild e Reorganize índices
+Observações: 
+ - O script gera comandos de rebuild para índices com mais de 30% de fragmentação e reorganize para índices com até 30% de fragmentação.
+ - Ajuste o parâmetro ONLINE na linha do comando de rebuild conforme a necessidade (ON ou OFF).
+ - O script considera apenas índices em tabelas que não contenham 'tmp' no nome.
+ - O script ignora índices com menos de 1000 páginas.
 ***************************************************************/
 
 /* Cria tabela temporária para armazenar os índices fragmentados */

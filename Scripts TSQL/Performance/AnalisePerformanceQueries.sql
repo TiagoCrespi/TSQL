@@ -1,9 +1,20 @@
-/***********************************************************************
-* Objetivo: Analise de performance de queries no SQL Server
-* Autor: Tiago Crespi
-* Data: 06/2024
-* Version: 1.0
-***********************************************************************/
+/***************************************************************
+Retorno: Tabela com as 100 queries que mais consumiram recursos no SQL Server
+        (CPU, Leitura, Escrita, Tempo de Execução)
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações: 
+ - Requer SQL Server 2008 ou superior
+ - Requer permissão VIEW SERVER STATE
+ - Pode ser executado em qualquer database
+ - Ordena pelo tempo total de execução (total_elapsed_time)
+ - Ajuste o filtro WHERE conforme necessário
+ - Campos de memória estão em KB
+ - Campos de tempo estão em microsegundos
+ - Campos de leitura e escrita estão em número de páginas (8KB cada)
+ - Query Plan pode ser visualizado no SSMS clicando no ícone do XML
+***************************************************************/
 
 select top 100
 db_name(qt.dbid) AS [Database],

@@ -1,11 +1,13 @@
-/************************************************************************
- * Objetivo: Tamanho das tabelas por banco de dados
- * Autor: Tiago Crespi
- * Data: 06/2024
- * Última Modificação: 06/2024
- * Observações: 
- *  - Testado no SQL Server 2012, 2014, 2016, 2017, 2019 e 2022
- ************************************************************************/
+/***************************************************************
+Retorno: Tamanho das tabelas por banco de dados
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações: Retorna o tamanho das tabelas por banco de dados
+         Inclui tabelas temporárias
+         Não inclui tabelas memory optimized
+         Baseado em script do site https://www.sqlshack.com/get-the-size-of-each-table-in-a-sql-server-database/
+***************************************************************/
 
 select
     a3.name as proprietario,

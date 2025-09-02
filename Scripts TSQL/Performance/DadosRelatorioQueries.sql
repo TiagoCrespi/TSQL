@@ -1,10 +1,13 @@
-/***********************************************************************
-*  Script Name: DadosRelatorioQueries.sql
-*  Objetivo: Retorna dados para relatorio de queries no SQL Server
-*  Autor: Tiago Crespi
-*  Data: 06/2024
-*  Version: 1.0
-***********************************************************************/
+/***************************************************************
+Retorno: Relatório de Queries por CPU, Tempo e Paralelismo
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações:
+- Exibe as queries que mais consumiram CPU, tempo e grau de paralelismo.
+- Útil para identificar queries que podem estar impactando a performance do servidor.
+- Pode ser ajustado para filtrar por banco de dados específico ou intervalo de tempo.
+***************************************************************/
 
 
 SELECT top 100

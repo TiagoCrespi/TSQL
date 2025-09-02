@@ -1,7 +1,11 @@
 /***************************************************************
-Retorna o tamanho do banco de dados atual, detalhado por arquivo.
-Se precisar do tamanho de um banco específico, basta fazer o USE <banco> antes de executar o script.
-Se precisar do tamanho por arquivo de log, descomentar a linha do final do script, valor 1 = dados, 0 = log
+Retorno: Tamanho do banco de dados atual, detalhado por arquivo
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações:
+ - Se precisar do tamanho de um banco específico, basta fazer o USE <banco> antes de executar o script.
+ - Se precisar do tamanho por arquivo de log, descomentar a linha do final do script, valor 1 = dados, 0 = log 
 ***************************************************************/
 
 select
