@@ -1,10 +1,13 @@
 /***************************************************************
-Deve ser executado o comando abaixo, que vai criar duas procedures no banco master: 
-	- Dbo.sp_help_revlogin 
-	- Dbo.sp_hexadecimal
-
-Depois de criadas as procedures, executar a procedure: exec master.dbo.sp_help_revlogin
-O retorno desta procedure é o script de criação dos logins e usuários que deve ser aplicado no servidor novo.
+Retorno: Script para gerar logins do SQL Server
+Objetivo: Gerar script de criação de logins do SQL Server com senha e SID
+         para serem recriados em outro servidor.
+         Baseado no script original do Microsoft KB246133
+         https://support.microsoft.com/en-us/help/246133/how-to-transfer-logins-and-passwords-between-instances-of-sql-server
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Testado no SQL Server 2012, 2014, 2016, 2017, 2019 e 2022
 ***************************************************************/
 
 USE master

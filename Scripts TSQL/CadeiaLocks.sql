@@ -1,9 +1,13 @@
-/*
------------------------------RETORNA A CADEIA DE LOCKS NO AMBIENTE-----------------------------
+/***************************************************************
+Retorno: Cadeia de Locks no ambiente
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Testado no SQL Server 2012, 2014, 2016, 2017, 2019 e 2022
     Comando retorna a cadeia de locks ocorrendo no banco de dados.
     O resultado é a nível da instancia, sendo assim, não é necessário indicar o database
-   
-*/
+***************************************************************/
+/* Configurações iniciais */
 drop table if exists #Temp_Table
 
 SELECT SPID,BLOCKED, REPLACE (REPLACE (T.TEXT, CHAR(10), ' '), CHAR (13), ' ' ) AS BATCH
@@ -12,8 +16,6 @@ FROM
     sys.sysprocesses R
     CROSS APPLY sys.dm_exec_sql_text(R.SQL_HANDLE) T
 GO
-
- 
 
 WITH BLOCKERS (SPID, BLOCKED, LEVEL, BATCH)
 AS

@@ -1,3 +1,18 @@
+/***************************************************************
+Retorno: Uso do log de transações por sessão
+Objetivo: Monitorar o uso do log de transações por sessão
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações:
+- Necessário permissão VIEW SERVER STATE
+- Necessário permissão VIEW DATABASE STATE na database alvo
+- Necessário permissão VIEW DEFINITION na database alvo
+- Necessário permissão CONTROL SERVER para visualizar todas as sessões
+- Necessário permissão CONTROL DATABASE para visualizar todas as sessões na database alvoge_counts
+DESC: Sessão com maior uso de log de transações
+***************************************************************/
+
 SELECT
 st.dbid AS QueryExecutionContextDBID,
 DB_NAME(st.dbid) AS QueryExecContextDBNAME,

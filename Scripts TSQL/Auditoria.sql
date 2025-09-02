@@ -4,7 +4,6 @@ Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
 Obs: Deve-se alterar o caminho do arquivo conforme o ambiente
-
 ***************************************************************/
 
 /* Cria tabela temporária com os dados da auditoria */

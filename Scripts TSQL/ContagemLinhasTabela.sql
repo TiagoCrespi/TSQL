@@ -1,3 +1,11 @@
+/***************************************************************
+Retorno: Contagem de linhas por tabela
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Nenhuma
+***************************************************************/
+
 SELECT 
     t.NAME AS TableName, i.name as indexName,p.[Rows],sum(a.total_pages) as TotalPages, sum(a.used_pages) as UsedPages, sum(a.data_pages) as DataPages
 FROM 

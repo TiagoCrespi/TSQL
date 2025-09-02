@@ -1,8 +1,10 @@
 /***************************************************************
-Retorna o uso do log de transações por sessão
+Retorno: Informações sobre transações ativas no SQL Server
+Objetivo: Monitorar o uso do log de transações por sessão
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Observações: Requer permissões VIEW SERVER STATE
 ***************************************************************/
 
 SELECT 

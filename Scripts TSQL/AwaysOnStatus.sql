@@ -1,5 +1,9 @@
 /***************************************************************
-Exibe o status do Always On
+Retorno: Retorna o status do Always On
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 select  replica_server_name as servername,db_name(database_id) as database_name,

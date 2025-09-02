@@ -1,8 +1,10 @@
 /***************************************************************
-Retorno: Retorna o uso de CPU do SQL Server e do sistema operacional
+Retorno: Uso de CPU do SQL Server
+Objetivo: Monitorar o uso de CPU do SQL Server em relação ao sistema operacional
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Observações: Necessita de permissão VIEW SERVER STATE
 ***************************************************************/
 
 DECLARE @ts_now bigint = (SELECT cpu_ticks/(cpu_ticks/ms_ticks)FROM sys.dm_os_sys_info);  

@@ -1,8 +1,9 @@
 /***************************************************************
-Retorno: Retorna os principais dados dos bancos de dados
+Retorno: Lista de bancos de dados
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 select

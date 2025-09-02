@@ -1,8 +1,10 @@
 /***************************************************************
-Retorna a data do ultimo acesso ao banco de dados
+Retorno: Tempo do último acesso às bases de dados
+Objetivo: Monitorar o tempo do último acesso às bases de dados
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Observação: Necessário ter a permissão VIEW SERVER STATE
 ***************************************************************/
 
 

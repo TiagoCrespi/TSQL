@@ -1,5 +1,9 @@
 /***************************************************************
-retorna propriedades da instância do SQL Server
+Retorno: Propriedades da Instância SQL Server	
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 SELECT 

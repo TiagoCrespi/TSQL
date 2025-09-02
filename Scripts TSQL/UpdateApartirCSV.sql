@@ -1,8 +1,10 @@
 /***************************************************************
-Retorno: Atualiza tabela a partir de arquivo CSV
+Retorno: Script para atualizar tabela a partir de arquivo CSV
+Objetivo: Atualizar a tabela ESMATERI com os dados do arquivo CSV
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Observações: Ajustar o caminho do arquivo CSV conforme necessário
 ***************************************************************/
 
 

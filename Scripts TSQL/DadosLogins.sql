@@ -1,3 +1,12 @@
+/***************************************************************
+Retorno: Lista de logins com suas permissões e roles no SQL Server
+Objetivo: Auxiliar na auditoria de logins e suas permissões no SQL Server
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Filtra apenas logins habilitados
+***************************************************************/
+
 WITH ServerPermsAndRoles
 AS (
 SELECT spr.name AS principal_name,

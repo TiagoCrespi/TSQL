@@ -1,3 +1,15 @@
+/***************************************************************
+Retorno: Comandos T-SQL para monitoramento de atividades no SQL Server
+Objetivo: Monitorar atividades no SQL Server, similar ao sp_who2, mas com muito mais detalhes.
+         Baseado no projeto open-source "Who Is Active?" de Adam Machanic.
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Este script cria a procedure sp_WhoIsActive no banco de dados atual.
+      Para mais detalhes sobre o sp_WhoIsActive, consulte a documentação oficial:
+***************************************************************/
+
+
 SET QUOTED_IDENTIFIER ON;
 SET ANSI_PADDING ON;
 SET CONCAT_NULL_YIELDS_NULL ON;

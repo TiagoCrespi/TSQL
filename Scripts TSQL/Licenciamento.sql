@@ -1,5 +1,9 @@
 /***************************************************************
-Retorna o tipo de licença, número de licenças e edição do SQL Server
+Retorno: Tipo de Licenciamento do SQL Server
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 /*  Versão do 2005 at  2008 */

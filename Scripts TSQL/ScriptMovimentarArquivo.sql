@@ -1,4 +1,15 @@
-/* #### Sempre colocar a barra no final do endereco ####*/
+/***************************************************************
+Retorno: Script de movimentação de arquivos de dados e logs de um banco de dados
+         para outro local.
+Objetivo: Auxiliar na movimentação de arquivos de dados e logs de um banco de dados
+         para outro local.
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Antes de executar o script, certifique-se que o banco de dados está em modo SINGLE_USER.
+      Altere as variáveis @nmbanco, @dscaminhoDados e @dscaminhoLogs conforme necessário.
+      Execute os comandos retornados pelo script um a um.
+***************************************************************/
 
 declare @nmbanco as varchar(100) = 'tempdb';
 declare @dscaminhoDados as varchar(100) = 'T:\Dados\';

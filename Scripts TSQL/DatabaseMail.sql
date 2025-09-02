@@ -1,8 +1,10 @@
 /***************************************************************
-Retorno: Retornar os itens de email com falha, enviados e log de eventos do Database Mail
+Retorno: Lista de jobs com a duração de cada step
+Objetivo: Monitorar a duração dos jobs
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 /* Configura o Database Mail

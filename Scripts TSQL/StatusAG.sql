@@ -1,8 +1,10 @@
 /***************************************************************
-Retorno: Retorna o status do Always On do SQL Server 
+Retorno: Lista o status das réplicas de um banco de dados em um grupo de disponibilidade Always On.
+Objetivo: Auxiliar na verificação do status das réplicas de um banco de dados em um grupo de disponibilidade Always On.
 Autor: Tiago Crespi
 Data: 06/2024
 Version: 1.0 
+Obs: Nenhuma
 ***************************************************************/
 
 

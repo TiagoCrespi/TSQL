@@ -1,3 +1,12 @@
+/***************************************************************
+Retorno: Informações sobre serviços do SQL Server
+Objetivo: Auxiliar na identificação de serviços do SQL Server
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações: Nenhuma
+***************************************************************/
+
 SELECT DSS.servicename,
 DSS.startup_type_desc,
 DSS.status_desc,

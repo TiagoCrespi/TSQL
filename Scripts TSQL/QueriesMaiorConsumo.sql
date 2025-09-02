@@ -1,8 +1,9 @@
 /***************************************************************
-Retorna as queries com maior consumo de CPU e I/O no SQL Server
+Retorno: Lista das queries com maior consumo de tempo no SQL Server
 Autor: Tiago Crespi
 Data: 06/2024
-Version: 1.0    
+Version: 1.0 
+Obs: Necessita de permissão VIEW SERVER STATE
 ***************************************************************/
 
 

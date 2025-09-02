@@ -1,6 +1,9 @@
 /***************************************************************
-Retorna a data de instalação do SQL Server Trial Edition
-e a data de expiração (180 dias) e quantos dias faltam para expirar
+Retorno: Duração restante para expiração do SQL Trial (180 dias)
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Obs: Funciona apenas para SQL Server Trial (180 dias)
 ***************************************************************/
 
 SELECT
