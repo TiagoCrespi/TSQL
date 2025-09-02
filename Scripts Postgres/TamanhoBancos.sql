@@ -1,0 +1,14 @@
+/***************************************************************
+Retorno: Tamanho dos Bancos de Dados
+Autor: Tiago Crespi
+Data: 06/2024
+Version: 1.0 
+Observações:
+- Retorna o tamanho de todos os bancos de dados do servidor PostgreSQL.
+***************************************************************/
+
+select t1.datname AS db_name,  
+       pg_size_pretty(pg_database_size(t1.datname)) as db_size
+from pg_database t1
+order by pg_database_size(t1.datname) desc;
+
