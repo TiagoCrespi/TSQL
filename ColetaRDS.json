@@ -1,0 +1,92 @@
+[
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "CPUUtilization",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "DatabaseConnections",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "FreeableMemory",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "FreeStorageSpace",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "ReadIOPS",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "WriteIOPS",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "ReadLatency",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "AWS/RDS",
+    "Metric": "WriteLatency",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "CPUUtilization.Total",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "memory.total",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "memory.free",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "diskIO.readIOsPS",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "diskIO.writeIOsPS",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "network.tx",
+    "Average": "Sem dados",
+    "Timestamp": null
+  },
+  {
+    "Namespace": "RDSOSMetrics",
+    "Metric": "network.rx",
+    "Average": "Sem dados",
+    "Timestamp": null
+  }
+]
